@@ -11,6 +11,7 @@ return {
   { import = "astrocommunity.git.git-blame-nvim" },
   { import = "astrocommunity.git.diffview-nvim" },
   { import = "astrocommunity.split-and-window.minimap-vim" },
+  { import = "astrocommunity.workflow.hardtime-nvim" },
   -- { import = "astrocommunity.colorscheme.catppuccin" },
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
 }
