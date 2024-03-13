@@ -2,6 +2,7 @@ return {
   "m4xshen/hardtime.nvim",
   event = "User AstroFile",
   opts = {
+    disable_mouse = false,
     disabled_keys = {
       ["<Insert>"] = { "", "i" },
       ["<Home>"] = { "", "i" },

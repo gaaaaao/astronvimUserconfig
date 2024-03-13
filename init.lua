@@ -155,5 +155,8 @@ return {
     -- vim.api.nvim_create_autocmd("BufEnter", {
     --   command = "set rnu nu",
     -- })
+    vim.opt.shiftwidth = 4
+    vim.opt.tabstop = 4
+
   end,
 }
