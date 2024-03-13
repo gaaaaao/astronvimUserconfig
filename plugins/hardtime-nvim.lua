@@ -2,7 +2,6 @@ return {
   "m4xshen/hardtime.nvim",
   event = "User AstroFile",
   opts = {
-    disable_mouse = false,
     disabled_keys = {
       ["<Insert>"] = { "", "i" },
       ["<Home>"] = { "", "i" },
@@ -10,6 +9,9 @@ return {
       ["<PageUp>"] = { "", "i" },
       ["<PageDown>"] = { "", "i" },
     },
+    disable_mouse = false,
+    allow_different_key = true,
+    max_count = 5,
   },
   config = function(_, opts)
     require("hardtime").setup(opts)
